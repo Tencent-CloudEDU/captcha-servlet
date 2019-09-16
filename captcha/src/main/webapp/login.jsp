@@ -20,7 +20,7 @@
 			<tr>
 				<td>验证码：</td>
 				<td><input type="text" name="code" style="width: 60px;" /><img
-					alt="" src="<%=request.getContextPath()%>/captcha"><a href="">换一张</a></td>
+					alt="" src="<%=request.getContextPath()%>/captcha"><a href="javascript:void(0)" onclick="location.reload()">换一张</a></td>
 			</tr>
 			<tr>
 				<td colspan="2" align="center"><input type="submit" value="登录" />

@@ -6,6 +6,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>用户名、密码、验证码校验不通过，登录失败</h1>
+	<h1>验证失败，登录失败</h1>
 </body>
 </html>

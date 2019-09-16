@@ -6,6 +6,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>用户名、密码、验证码校验通过，登录成功</h1>
+	<h1>用户名、密码、验证码校验成功，登录成功</h1>
 </body>
 </html>

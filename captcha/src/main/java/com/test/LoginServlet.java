@@ -13,10 +13,10 @@ public class LoginServlet extends HttpServlet{
 
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		String user = req.getParameter("name");
+		String name = req.getParameter("name");
 		String password = req.getParameter("password");
 		String code = req.getParameter("code");
-		if("admin".equals(user) && "admin".equals("admin") && code.equals(req.getSession().getAttribute("captchaCode"))) {
+		if("admin".equals(name) && "admin".equals(password) && code.equals(req.getSession().getAttribute("captchaCode"))) {
 			req.getRequestDispatcher("/success.jsp").forward(req, resp);
 		}else {
 			req.getRequestDispatcher("/fail.jsp").forward(req, resp);
